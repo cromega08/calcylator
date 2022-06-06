@@ -91,7 +91,7 @@ calcylator
 **_Notes:_**
 
 * You need to have installed python in your computer.
-* Calcylator doesn't resolve ecuations.
+* Calcylator doesn't resolve algebraic operations.
 * The absolute option "**~a**" just it's aplicated for the output, doesn't mean you can write as input somethin like:
 
     ```bash
