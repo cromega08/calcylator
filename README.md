@@ -16,15 +16,17 @@ Have the option to auto-copy to the paperclip with the command **~cp**.
 
 ## Installation
 
+Download the current repository in any dir of your computer and remember the path to it.
+
 Install calcylator with pip:
 
-* To install in path and use it as a command:
+* To just install in path and use it as a command:
 
     ```bash
     pip install /path/to/calcylator/folder
     ```
 
-* To add the option to edit without need to install each time:
+* To add the option to edit the script without need to install each time:
 
     ```bash
     pip install -e /path/to/calcylator/folder
