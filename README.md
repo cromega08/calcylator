@@ -44,15 +44,30 @@ calcylator
     calcylator ~h
     ```
 
-* Basic operations:
+* Monomials operations:
 
     ```bash
     calcylator 2+2
+    ```
+
+    ```bash
     calcylator 2-2
+    ```
+
+    ```bash
     calcylator 2/2
-    calcylator 3*2
-    calcylator 3**3
-    calcylator 15%
+    ```
+
+    ```bash
+    calcylator 2*2
+    ```
+
+    ```bash
+    calcylator 2**2
+    ```
+
+    ```bash
+    calcylator 2%
     ```
 
 * Polinomials operations:
@@ -75,13 +90,19 @@ calcylator
 
 **_Notes:_**
 
-* Yo need to have installed python in your computer
+* You need to have installed python in your computer.
 * Calcylator doesn't resolve ecuations.
-* The absolute option "**~a**" just it's aplicated for the output, doesn't mean you can write as input somethin like: **|-5|**. I'snt allowed and throw error.
+* The absolute option "**~a**" just it's aplicated for the output, doesn't mean you can write as input somethin like:
+
+    ```bash
+    calcylator |-5|
+    ```
+
+    This will remove "**|**" and just return **-5**.
 
 ## Posible problems
 
-* **~cp** command
+* **~cp** command:
 
     If you have any problem with the **~cp** option, it's because a problem with the [**_pyperclip_**](https://pyperclip.readthedocs.io/en/latest/) librarie, try to run any of this commands (NOT ALL OF THEM):
 
@@ -109,7 +130,7 @@ calcylator
         pip install PyQt4
         ```
 
-    For more information, go to the pyperclip website
+    For more information, go to the pyperclip website documentation.
 
 ## Authors
 
@@ -117,8 +138,8 @@ calcylator
 
 ## License
 
-[GNU AGPL v3.0](https://choosealicense.com/licenses/agpl-3.0/)
+* [GNU AGPL v3.0](https://choosealicense.com/licenses/agpl-3.0/)
 
 ## You done your homework?
 
-If you have any feedback, please feel free to fork this repository and update
+If you have any feedback, please feel free to fork this repository and update.
