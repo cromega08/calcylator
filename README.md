@@ -12,19 +12,19 @@ Allow to make the follow operations:
 * Percent: **%**
 * Absolute output: with the specified **~a** option, allow to get absolute values
 
-Have the option to auto-copy to the paperclip with the command **~cp**
+Have the option to auto-copy to the paperclip with the command **~cp**.
 
 ## Installation
 
 Install calcylator with pip:
 
-* To install in path and use it as a command
+* To install in path and use it as a command:
 
     ```bash
     pip install /path/to/calcylator/folder
     ```
 
-* To add the option to edit without need to install each time
+* To add the option to edit without need to install each time:
 
     ```bash
     pip install -e /path/to/calcylator/folder
